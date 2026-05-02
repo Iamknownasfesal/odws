@@ -1,0 +1,12 @@
+[package]
+name = "ika_ows_policy"
+edition = "2024"
+license = "BSD-3-Clause-Clear"
+authors = ["fesal <fesal@dwalletlabs.com>"]
+
+[dependencies]
+ika = { git = "https://github.com/dwallet-labs/ika.git", subdir = "deployed_contracts/mainnet/ika", rev = "main" }
+ika_dwallet_2pc_mpc = { git = "https://github.com/dwallet-labs/ika.git", subdir = "deployed_contracts/mainnet/ika_dwallet_2pc_mpc", rev = "main" }
+
+[addresses]
+ika_ows_policy = "0x0"

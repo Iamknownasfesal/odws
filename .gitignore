@@ -1,0 +1,7 @@
+.env
+node_modules
+dist
+*.tsbuildinfo
+build/
+contract/package_summaries
+contract/build
