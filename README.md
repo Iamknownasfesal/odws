@@ -103,10 +103,9 @@ For ed25519, you can also use `ed25519SeedToPrivateKey(seed)` if you handle SLIP
 
 ## IKA Token Requirements
 
-Every on-chain operation requires IKA tokens for protocol fees. Each operation uses 10 IKA.
+Every on-chain operation requires IKA tokens for protocol fees. Each operation uses uses some sort of ika as fee.
 
 - **Minimum balance:** 10 IKA
-- **Recommended:** 1,000–10,000 IKA
 
 ## Supported Chains
 
